@@ -31,7 +31,7 @@ class TestMain(unittest.TestCase):
         self.m6.omok_pan[5][7] = 1
 
 
-    def testVictory(self):
+    def testvictory(self):
         # victory return : 1 , else : 0
         # black win
         self.m2.omok_pan[0][3] = 1
